@@ -22,7 +22,7 @@ body {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   position: relative;
 }
-.profile-card::before {
+/* .profile-card::before {
   content: "";
   position:absolute;
   top: 0;
@@ -30,8 +30,8 @@ body {
   height: 36%;
   width:100%;
   border-radius: 24px 24px 0 0;
-  background-color: #4070f4;
-}
+  background: #4070f4;
+} */
 img {
   
   position: relative;
@@ -130,4 +130,7 @@ img .profile-img {
 }
 .data:last-child {
   border-right: none;
+}
+.color-flipper {
+  padding: 20px;
 }
