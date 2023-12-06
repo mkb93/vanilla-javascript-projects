@@ -1,3 +1,8 @@
+// fetch('http://localhost:5000/profiles/1')
+// .then(response => response.json())
+// .then(data => console.log(data));
+
+
 const reviews = [
   {
     id: 1,
