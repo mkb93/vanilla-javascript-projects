@@ -17,6 +17,7 @@ listItems.forEach(item=>{
       modalBtn.parentElement.parentElement.classList.remove('visible');
       document.querySelector('.overlay').classList.remove('visible');
       document.querySelector('body').classList.toggle('active-modal')
+      item.classList.remove('selected')
     })
     item.classList.toggle('selected')
     // item.querySelector('div').classList.toggle('question-text')
