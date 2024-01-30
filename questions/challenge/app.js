@@ -10,9 +10,8 @@ listItems.forEach(item=>{
       if(item !== otherItem){
         otherItem.classList.remove('selected')
         otherItem.querySelector('div').classList.add('question-text')
-      }
-      
-    })
+      }  
+})
     modalBtn.addEventListener('click',e=>{
       modalBtn.parentElement.parentElement.classList.remove('visible');
       document.querySelector('.overlay').classList.remove('visible');
